@@ -1,0 +1,45 @@
+{
+  "name": "@cityssm/mssql-system-catalog",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Helper functions to query a SQL Server database's system catalog views.",
+  "exports": {
+    ".": "./index.js",
+    "./columns": "./columns/index.js",
+    "./columns.js": "./columns/index.js",
+    "./objects": "./objects/index.js",
+    "./objects.js": "./objects/index.js",
+    "./schemas": "./schemas/index.js",
+    "./schemas.js": "./schemas/index.js",
+    "./types": "./types/index.js",
+    "./types.js": "./types/index.js"
+  },
+  "scripts": {
+    "test": "cross-env NODE_ENV=dev DEBUG=mssql-multi-pool:* node --test test/test.js",
+    "coverage": "cross-env NODE_ENV=dev DEBUG=mssql-multi-pool:* c8 --reporter=lcov --reporter=text --reporter=text-summary node --test test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cityssm/node-mssql-system-catalog.git"
+  },
+  "keywords": [
+    "mssql",
+    "sql-server",
+    "system-catalog",
+    "tables",
+    "views",
+    "metadata"
+  ],
+  "author": "The Corporation of the City of Sault Ste. Marie",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cityssm/node-mssql-system-catalog/issues"
+  },
+  "homepage": "https://github.com/cityssm/node-mssql-system-catalog#readme",
+  "devDependencies": {
+    "@cityssm/mssql-multi-pool": "^4.0.0",
+    "@types/node": "^22.7.7",
+    "eslint-config-cityssm": "^13.0.0",
+    "prettier-config-cityssm": "^1.0.0"
+  }
+}
