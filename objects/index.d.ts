@@ -1,7 +1,7 @@
 import type { ConnectionPool, IRecordSet } from 'mssql';
 import type { SysObjectsKnownTypeColumns, SysObjectsRecord, SysObjectsRecordWithColumns } from './types.js';
 export declare const objectsViewName = "sys.objects";
-export declare const objectsSelectedColumnNames: ("type" | "type_desc" | "name" | "object_id" | "schema_id" | "create_date" | "modify_date")[];
+export declare const objectsSelectedColumnNames: ("name" | "object_id" | "type" | "type_desc" | "schema_id" | "create_date" | "modify_date")[];
 export declare const objectsJoinedColumnNames: "schema_name"[];
 /**
  * Returns a list of object records.

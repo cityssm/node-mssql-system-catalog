@@ -1,7 +1,7 @@
 import type { ConnectionPool, IRecordSet } from 'mssql';
 import type { SysColumnsRecord } from './types.js';
 export declare const columnsViewName = "sys.columns";
-export declare const columnsSelectedColumnNames: ("object_id" | "name" | "column_id" | "user_type_id" | "max_length" | "precision" | "scale" | "is_nullable" | "is_identity")[];
+export declare const columnsSelectedColumnNames: ("name" | "object_id" | "column_id" | "user_type_id" | "max_length" | "precision" | "scale" | "is_nullable" | "is_identity")[];
 export declare const columnsJoinedColumnNames: "user_type_name"[];
 /**
  * Returns a list of column definition records for a given object.

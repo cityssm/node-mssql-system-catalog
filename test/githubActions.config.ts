@@ -10,7 +10,7 @@ export const config: mssqlTypes.config = {
   user: 'sa',
   // eslint-disable-next-line sonarjs/no-hardcoded-credentials
   password: 'dbatools.I0',
-  database: 'master',
+  database: 'TestDatabase',
   options: {
     encrypt: false
   }
