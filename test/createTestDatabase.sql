@@ -6,7 +6,12 @@ create table TestTable (
 	testDate datetime not null default getdate(),
 	testBit bit not null default 1
 )
+GO
 
+insert into TestTable (testName, testDescription) values ('row1', 'first row')
+GO
+
+insert into TestTable (testName, testDescription) values ('row2', 'second row')
 GO
 
 ---
