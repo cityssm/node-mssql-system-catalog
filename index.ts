@@ -3,17 +3,18 @@ export {
   columnsViewName,
   columnsSelectedColumnNames,
   columnsJoinedColumnNames,
-  SysColumnsRecord
+  type SysColumnsRecord
 } from './columns/index.js'
 
 export {
   getObjects,
   getObjectsByType,
+  getTables,
   getViews,
   objectsViewName,
   objectsSelectedColumnNames,
   objectsJoinedColumnNames,
-  SysObjectsRecord
+  type SysObjectsRecord
 } from './objects/index.js'
 
 export { schemasViewName } from './schemas/index.js'

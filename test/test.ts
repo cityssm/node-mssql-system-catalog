@@ -3,8 +3,7 @@ import { after, describe, it } from 'node:test'
 
 import mssqlMultiPool from '@cityssm/mssql-multi-pool'
 
-import { getObjects, getObjectsByType } from '../index.js'
-import { getTables, getViews } from '../objects/index.js'
+import { getObjects, getObjectsByType, getTables, getViews } from '../index.js'
 
 import { config } from './test.config.js'
 
