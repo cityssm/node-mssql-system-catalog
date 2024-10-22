@@ -38,7 +38,7 @@
   "homepage": "https://github.com/cityssm/node-mssql-system-catalog#readme",
   "devDependencies": {
     "@cityssm/mssql-multi-pool": "^4.0.0",
-    "@types/node": "^22.7.7",
+    "@types/node": "^22.7.8",
     "eslint-config-cityssm": "^13.0.0",
     "prettier-config-cityssm": "^1.0.0"
   }
