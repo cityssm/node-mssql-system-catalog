@@ -7,5 +7,11 @@ create table TestTable (
 	testBit bit not null default 1
 )
 
+GO
+
+---
+
 create view TestView as
 select * from TestTable where testBit = 1
+
+GO
